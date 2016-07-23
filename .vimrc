@@ -41,12 +41,13 @@ set ruler
 
 filetype indent plugin on "load filteyp-specific indent files
 set autoindent
-set showmatch "highlight matching [{()}]
+set showmatch "highlight matching [{()HQ}]
 set lazyredraw
 set ttyfast
 set ttimeoutlen=100
 set showmode
 set mouse=a "enable mouse for all modes
+set ttymouse=xterm2
 set incsearch "search as characters are entered
 set nohlsearch "highlight matches
 set ignorecase "case insensitive search
