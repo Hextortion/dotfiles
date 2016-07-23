@@ -4,16 +4,16 @@ urxvt.background: black
 urxvt.foreground: lightgrey
 urxvt.transparent: false
 urxvt.scrollBar: false 
-#urxvt.font: -*-fixed-medium-r-*-*-18-*-*-*-*-*-*-*
-urxvt.font: xft:DejaVuSansMono:size=16
-urxvt.boldFont: xft:DejaVuSansMono:size=16:style=bold
-urxvt.letterSpace: -1
+! urxvt.font: -*-fixed-medium-r-*-*-18-*-*-*-*-*-*-*
+urxvt.font: xft:Terminus:size=16:style=bold
+urxvt.boldFont: xft:Terminus:size=16:style=bold
+urxvt.letterSpace: 0
 urxvt.cursorBlink: true
 
 !-- Xft settings -- !
-Xft.dpi:        96
-Xft.antialias:  false
-Xft.rgba:       rgb
-Xft.hinting:    true
-Xft.hintstyle:  hintslight
-Xft.lcdfilter:  lcdlight
+! Xft.dpi:        96
+! Xft.antialias:  true
+! Xft.rgba:       rgb
+! Xft.hinting:    true
+! Xft.hintstyle:  hintslight
+! Xft.lcdfilter:  lcdlight
