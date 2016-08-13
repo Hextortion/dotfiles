@@ -4,16 +4,21 @@ urxvt.background: black
 urxvt.foreground: lightgrey
 urxvt.transparent: false
 urxvt.scrollBar: false 
-! urxvt.font: -*-fixed-medium-r-*-*-18-*-*-*-*-*-*-*
-urxvt.font: xft:Terminus:size=16:style=bold
-urxvt.boldFont: xft:Terminus:size=16:style=bold
+
+! The trusty good old Terminus font
+urxvt.font: xft:Terminus:size=10
+urxvt.boldFont: xft:Terminus:size=10:style=bold
 urxvt.letterSpace: 0
+
+! How can you work without a blinking cursor
 urxvt.cursorBlink: true
 
-!-- Xft settings -- !
-! Xft.dpi:        96
-! Xft.antialias:  true
-! Xft.rgba:       rgb
-! Xft.hinting:    true
-! Xft.hintstyle:  hintslight
-! Xft.lcdfilter:  lcdlight
+urxvt.perl-ext-common: font-size
+
+urxvt.iso14755: false
+urxvt.iso14755_52: false
+
+urxvt.keysym.C-Up:     font-size:increase
+urxvt.keysym.C-Down:   font-size:decrease
+urxvt.keysym.C-S-Up:   font-size:incglobal
+urxvt.keysym.C-S-Down: font-size:decglobal
