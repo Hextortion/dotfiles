@@ -55,8 +55,8 @@ call s:ColorDictParser({
 	\ , 'StatusLine'                  : [    231,    236,           'bold',      'ffffff',  '303030',           'bold']
 	\ , 'StatusLineNC'                : [    244,    232,               '',      '808080',  '080808',               '']
 	\
-	\ , 'LineNr'                      : [    237,    232,               '',      '767676',  '262626',               '']
-	\ , 'VertSplit'                   : [    243,    232,               '',      '585858',  '1c1c1c',               '']
+	\ , 'LineNr'                      : [    240,    234,               '',      '767676',  '262626',               '']
+	\ , 'VertSplit'                   : [    243,    234,               '',      '585858',  '1c1c1c',               '']
 	\
 	\ , 'WildMenu'                    : [    234,    231,               '',      '1c1c1c',  'ffffff',               '']
 	\ , 'Directory'                   : [    144,     '',               '',      'afaf5f',        '',           'bold']
@@ -80,7 +80,7 @@ call s:ColorDictParser({
 	\
 	\ , 'SpellCap'                    : [    231,     31,           'bold',      'ffffff',  '0087af',           'bold']
 	\
-	\ , 'SpecialKey'                  : [    237,     '',               '',      '4e4e4e',        '',               '']
+	\ , 'SpecialKey'                  : [    239,     '',               '',      '4e4e4e',        '',               '']
 	\ , 'NonText'                     : [    233,     '',               '',      '870000',        '',               '']
 	\ , 'MatchParen'                  : [    231,     25,           'bold',      'ffffff',  '005faf',           'bold']
 	\
